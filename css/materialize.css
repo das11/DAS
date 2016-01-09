@@ -2190,8 +2190,15 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+
+ @font-face{
+  font-family: 'loop';
+  src: url("fonts/Roboto-Light.ttf");
+}
+
+
 html {
-  font-family: sans-serif;
+  font-family: 'loop';
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
